@@ -21,5 +21,5 @@ describe('Test Frequency Engine', () => {
 
         const compleateFrequency = frequencyEngine(frequencyValues);
         expect(compleateFrequency == 2);
-    })
+    });
 });
