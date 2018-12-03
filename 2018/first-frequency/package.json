@@ -1,0 +1,14 @@
+{
+  "name": "first",
+  "version": "1.0.0",
+  "description": "First AdventofCode challenge 2018",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine"
+  },
+  "author": "adam farquhar",
+  "license": "ISC",
+  "devDependencies": {
+    "jasmine": "^3.3.0"
+  }
+}
