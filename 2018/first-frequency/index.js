@@ -2,14 +2,13 @@ console.log("Calculate the frequency")
 
 
 
-function FrequencyEngine( values){
+exports.frequencyEngine = function (values){
+    let total = 0;
 
-    return 2;
-}
+    values.forEach(element => {
+        parseInt(element);
+        total + element;
+    });
 
-function ReadValues(){
-    var fs = require("fs");
-
-var text = fs.readFileSync("./values.txt", "utf-8");
-var textByLine = text.split("\n");
+    return total;
 }
